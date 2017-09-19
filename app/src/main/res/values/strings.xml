@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Gachenga</string>
+    <string name="hint_name">Name...</string>
+    <string name="hint_email">Email...</string>
+    <string name="hint_pass">Password...</string>
+    <string name="hint_pass2">Re-enter Password...</string>
+    <string name="btn_reg">Register</string>
+    <string name="btn_log">Login</string>
+    <string name="reg_title">Sign Up</string>
+    <string name="log_title">Sign In</string>
+    <string name="title_error">Error!</string>
+    <string name="mess_error">Password Mismatch!</string>
+    <string name="work">Working...</string>
+    <string name="reg_success">Registration successful</string>
+    <string name="log_success">Welcome!</string>
+    <string name="mess_empty_fields">One or more fields are empty</string>
+    <string name="mess_wrong_cred">Wrong username/password</string>
+    <string name="action_register_here"> <u>Register here</u> </string>
+    <string name="action_login_here"> <u>Login here</u> </string>
+</resources>

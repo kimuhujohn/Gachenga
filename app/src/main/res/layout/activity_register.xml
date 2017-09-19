@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gachenga.gachenga.RegisterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="@dimen/padding_all_dimen"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <EditText
+            android:id="@+id/txt_reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:inputType="text"
+            android:layout_margin="@dimen/txt_margin"/>
+
+        <EditText
+            android:id="@+id/txt_reg_email"
+            android:layout_below="@id/txt_reg_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_email"
+            android:inputType="textEmailAddress"
+            android:layout_margin="@dimen/txt_margin"/>
+
+        <EditText
+            android:id="@+id/txt_reg_pass"
+            android:layout_below="@id/txt_reg_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_pass"
+            android:inputType="textPassword"
+            android:layout_margin="@dimen/txt_margin"/>
+
+        <EditText
+            android:id="@+id/txt_reg_pass2"
+            android:layout_below="@id/txt_reg_pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_pass2"
+            android:inputType="textPassword"
+            android:layout_margin="@dimen/txt_margin"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/txt_reg_log"
+        android:gravity="center_horizontal"
+        android:layout_margin="@dimen/txt_margin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_login_here"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/txt_size"
+        android:textStyle="italic"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btn_reg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimaryDark"
+        android:text="@string/btn_reg"
+        android:textColor="@color/txtDarkBkg"
+        android:textAllCaps="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
